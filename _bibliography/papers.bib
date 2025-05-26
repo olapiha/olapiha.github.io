@@ -1,115 +1,91 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{poshtvan2025selectivelyblindquantumcomputation,
+      abbr={In Submission},
+      title={Selectively Blind Quantum Computation}, 
+      author={Abbas Poshtvan and Oleksandra Lapiha and Mina Doosti and Dominik Leichtle and Luka Music and Elham Kashefi},
+      year={2025},
+      eprint={2504.17612},
+      journal={arXiv},
+      pdf={BlindQC.pdf},
+      primaryClass={quant-ph},
+      html ={https://arxiv.org/abs/2504.17612}, 
+      abstract="Known protocols for secure delegation of quantum computations from a client to a server in an information theoretic setting require quantum communication. In this work, we investigate methods to reduce communication overhead. First, we establish an impossibility result by proving that server-side local processes cannot decrease quantum communication requirements of secure delegation protocols. We develop no-go results that prohibit such processes within an information theoretic framework. Second, we present a possibility result by introducing Selectively Blind Quantum Computing (SBQC), a novel functionality that allows the client to hide one among a known set of possible computations. We characterize how differences between computations in the protected set influence the number of qubits sent during our SBQC implementation, yielding a communication-optimal protocol. This approach reduces qubit communication drastically and demonstrates the trade-off between information leaked to the server and communication cost.",
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{cryptoeprint:2025/367,
+      abbr={In Submission},
+      author = {Martin R. Albrecht and Russell W. F. Lai and Oleksandra Lapiha and Ivy K. Y. Woo},
+      title = {Partial Lattice Trapdoors: How to Split Lattice Trapdoors, Literally},
+      journal = {Cryptology {ePrint} Archive},
+      pdf={TTrap.pdf},
+      year = {2025},
+      selected={true},
+      html = {https://eprint.iacr.org/2025/367},
+      abstract="Lattice trapdoor algorithms allow us to sample hard random lattices together with their trapdoors, given which short lattice vectors can be sampled efficiently. This enables a wide range of advanced cryptographic primitives. In this work, we ask: can we distribute lattice trapdoor algorithms non-interactively?
+
+We study a natural approach to sharing lattice trapdoors: splitting them into partial trapdoors for different lower-rank sublattices which allow the local sampling of short sublattice vectors. Given sufficiently many short sublattice vectors, these can then be combined to yield short vectors in the original lattice. Moreover, this process can be repeated an unbounded polynomial number of times without needing a party holding a full trapdoor to intervene. We further define one-wayness and indistinguishability properties for partial trapdoors.
+
+We establish that such objects exist that have non-trivial performance under standard assumptions. Specifically, we prove these properties for a simple construction from the κ-SIS and κ-LWE assumptions, which were previously shown to be implied by the plain SIS and LWE assumptions, respectively. The security proofs extend naturally to the ring or module settings under the respective analogues of these assumptions, which have been conjectured to admit similar reductions.
+
+Our partial trapdoors achieve non-trivial efficiency, with relevant parameters sublinear in the number of shareholders. Our construction is algebraic, without resorting to generic tools such as multiparty computation or fully homomorphic encryption. Consequently, a wide range of lattice-trapdoor-based primitives can be thresholdised non-interactively by simply substituting the trapdoor preimage sampling procedure with our partial analogue.",
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@InProceedings{10.1007/978-3-031-58754-2_4,
+abbr={EUROCRYPT},
+author="Albrecht, Martin R.
+and Fenzi, Giacomo
+and Lapiha, Oleksandra
+and Nguyen, Ngoc Khanh",
+editor="Joye, Marc
+and Leander, Gregor",
+title="SLAP: Succinct Lattice-Based Polynomial Commitments from Standard Assumptions",
+booktitle="Advances in Cryptology -- EUROCRYPT",
+year="2024",
+selected={true},
+publisher="Springer Nature Switzerland",
+html= {https://link.springer.com/chapter/10.1007/978-3-031-58754-2_4},
+pdf={SLAP.pdf},
+address="Cham",
+pages="90--119",
+abstract="Recent works on lattice-based extractable polynomial commitments can be grouped into two classes: (i) non-interactive constructions that stem from the functional commitment by Albrecht, Cini, Lai, Malavolta and Thyagarajan (CRYPTO 2022), and (ii) lattice adaptations of the Bulletproofs protocol (S {\&}P 2018). The former class enjoys security in the standard model, albeit a knowledge assumption is desired. In contrast, Bulletproof-like protocols can be made secure under falsifiable assumptions, but due to technical limitations regarding subtractive sets, they only offer inverse-polynomial soundness error. This issue becomes particularly problematic when transforming these protocols to the non-interactive setting using the Fiat-Shamir paradigm.",
+isbn="978-3-031-58754-2"
+
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{cryptoeprint:2021/1052,
+      abbr={eprint},
+      author = {Oleksandra Lapiha},
+      title = {Comparing Lattice Families for Bounded Distance Decoding near Minkowski's Bound.},
+      journal = {Cryptology {ePrint} Archive},
+      pdf={Decoding.pdf},
+      year = {2021},
+      html = {https://eprint.iacr.org/2021/1052},
+      abstract="In this report we analyse and compare the complexity of solving
+the Bounded Distance Decoding problem in two families for discrete
+logarithm lattices. Our algorithm uses the internal structure of the
+lattice to decode an error close to Minkowski’s bound efficiently. This
+procedure can be used as a decryption algorithm of an encryption
+scheme, where the internal structure of the lattice serves as a secret
+key. In addition, one of these lattices was used in [1] to construct a
+family of one way functions. We present cryptanalysis of the mentioned
+scheme and we prove that the stated size of the keys is insufficient for
+a required security level.",
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{JoyeLapihaNguyenNaccache+2021+111+122,
+title = {The Eleventh Power Residue Symbol},
+author = {Marc Joye and Oleksandra Lapiha and Ky Nguyen and David Naccache},
+pages = {111--122},
+volume = {15},
+number = {1},
+abbr={JMC},
+selected={true},
+journal = {Journal of Mathematical Cryptology},
+doi = {doi:10.1515/jmc-2020-0077},
+pdf={ResidueSymbol.pdf},
+year = {2021},
+abstract="This paper presents an efficient algorithm for computing 11th-power residue symbols in the cyclotomic field $Q(\zeta_{11})$ where $\zeta_{11}$ is a primitive 11th root of unity. It extends an earlier algorithm due to Caranay and Scheidler (Int. J. Number Theory, 2010) for the 7th-power residue symbol. The new algorithm finds applications in the implementation of certain cryptographic schemes.",
+lastchecked = {2025-05-26}
 }

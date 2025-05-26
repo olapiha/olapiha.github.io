@@ -9,7 +9,7 @@ last_name: Lapiha
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Oleksandra (Sasha) Lapiha
+  Personal website of Sasha Lapiha
 # footer_text: >
   # Nothing for now
 keywords: cryptography, lattices, phd, academic, researcher # add your own keywords or leave empty
@@ -47,7 +47,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
@@ -191,6 +191,15 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/blog.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _pages/dropdown.md
+  - _pages/cv.md
+  - _projects/
+  - _posts/
 keep_files:
   - CNAME
   - .nojekyll
