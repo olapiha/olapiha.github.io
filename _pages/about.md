@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Sasha. I like writing Security Proofs!
-
 My research interests include:
 - Design of Advanced Post-Quantum Cryptography from Lattices (**Threshold Signatures and Threshold Encryption Schemes, Zero-Knowledge Proofs**)
 - Security Analysis of New Lattice Assumptions
