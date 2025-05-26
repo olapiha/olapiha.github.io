@@ -32,12 +32,12 @@ My research interests include:
 - Security Analysis of New Lattice Assumptions
 - Proof Methods, Quantum Cryptography
 
-I am currently a PhD Researcher and [Royal Holloway](https://www.royalholloway.ac.uk/) and a visiting PhD Researcher at [King's College London](https://www.kcl.ac.uk/) working with [Martin R. Albrecht](https://malb.io/). Previously I completed my graduate studies in Computer Science at [Ecole Normale Superieure of Paris](https://www.ens.psl.eu/en). and an undergraduate degree in Mathematics at Taras Shevchenko University of Kyiv.
+I am currently a PhD Researcher at [Royal Holloway](https://www.royalholloway.ac.uk/) and a visiting PhD Researcher at [King's College London](https://www.kcl.ac.uk/) working with [Martin R. Albrecht](https://malb.io/). Previously I completed my graduate studies in Computer Science at [Ecole Normale Superieure of Paris](https://www.ens.psl.eu/en), and an undergraduate degree in Mathematics at Taras Shevchenko University of Kyiv.
 
 
 ## service
 
-Review for [Crypto'25](https://crypto.iacr.org/2025/), [Eurocrypt'25](https://eurocrypt.iacr.org/2025/), [ACM CCS'24](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html), [Eurocrypt'24](https://eurocrypt.iacr.org/2024/)
+Reviewer for [Crypto'25](https://crypto.iacr.org/2025/), [Eurocrypt'25](https://eurocrypt.iacr.org/2025/), [ACM CCS'24](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html), [Eurocrypt'24](https://eurocrypt.iacr.org/2024/)
 
 
 ## talks
