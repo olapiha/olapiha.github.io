@@ -1,9 +1,20 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"In Submission":
+  color: "#ff8c00"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Preprint":
+  color: "#a9a9a9"
 
-"Vision":
+"JMC":
   color: "#009f36"
+
+"CRYPTO":
+  color: "#663399"
+
+"ASIACRYPT":
+  color: "#556b2f"
+
+"ACM CCS":
+  color: "#a52a2a"
+
+"PKC":
+  color: "#ff8c00"
