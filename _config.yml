@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Sasha Lapiha
 # footer_text: >
   # Nothing for now
-keywords: cryptography, lattices, phd, academic, researcher # add your own keywords or leave empty
+keywords: Sasha Lapiha, Oleksandra Lapiha, Royal Holloway, Ecole Normale Superieure, cryptography, lattices, phd, academic, researcher # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🇺🇦 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
