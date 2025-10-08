@@ -42,6 +42,10 @@ Reviewer for [Asiacrypt'25](https://asiacrypt.iacr.org/2025/), [Crypto'25](https
 
 ## talks
 
+##### Gaussian Leftover Hash Lemma for Modules over Number Fields
+
+- Sep 25: [Slides](/assets/pdf/25-09-Imperial.pdf), Imperial College London
+
 ##### Leftover Hash Lemma(s) Over Cyclotomic Rings
 
 - Feb 25: [Slides](/assets/pdf/25-02-LHL-UKCryptoDay.pdf), Lightning Talk at the UK Crypto Day
