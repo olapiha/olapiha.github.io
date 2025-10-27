@@ -1,5 +1,5 @@
 "In Submission":
-  color: "#ff8c00"
+  color: "#556b2f"
 
 "Preprint":
   color: "#a9a9a9"
@@ -11,7 +11,7 @@
   color: "#663399"
 
 "ASIACRYPT":
-  color: "#556b2f"
+  color: "#ff8c00"
 
 "ACM CCS":
   color: "#a52a2a"
