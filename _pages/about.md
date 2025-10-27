@@ -48,6 +48,7 @@ Reviewer for [Asiacrypt'25](https://asiacrypt.iacr.org/2025/), [Crypto'25](https
 
 ##### Leftover Hash Lemma(s) Over Cyclotomic Rings
 
+- Jun 25: Charm Workshop, Institut de Mathématiques de Bordeaux, France
 - Feb 25: [Slides](/assets/pdf/25-02-LHL-UKCryptoDay.pdf), Lightning Talk at the UK Crypto Day
 
 ##### Partial Lattice Trapdoors: How to Split Lattice Trapdoors, Literally
@@ -57,7 +58,6 @@ Reviewer for [Asiacrypt'25](https://asiacrypt.iacr.org/2025/), [Crypto'25](https
 
 ##### SLAP: Succinct Lattice-Based Polynomial Commitments from Standard Assumptions
 
-- Mar 25: [Slides](/assets/pdf/25-03-SLAP-Edinburgh.pdf), Quantum Software Lab Seminar, University of Edinburgh, UK
-- Mar 24: Crypto Chats Seminar at RHUL, UK
-- Mar 24: Seminar at KU Leuven Mathematics Department, Belgium
-- Nov 23: Aarhus Crypto Seminar, Aarhus University, Denmark
+- Mar 25: [Slides](/assets/pdf/25-03-SLAP-Edinburgh.pdf), Quantum Software Lab, University of Edinburgh, UK
+- Mar 24: KU Leuven Mathematics Department, Belgium
+- Nov 23: Aarhus Crypto Group, Aarhus University, Denmark
