@@ -1,17 +1,31 @@
 ---
 ---
+@articl{cryptoeprint:2025/1852,
+      abbr={In Submission},
+      author = {Martin R. Albrecht and Joël Felderhoff and Russell W. F. Lai and Oleksandra Lapiha and Ivy K. Y. Woo},
+      title = {A Gaussian Leftover Hash Lemma for Modules over Number Fields},
+      journal = {Cryptology {ePrint} Archive},
+      pdf={GLHL.pdf},
+      year = {2025},
+      selected={true},
+      html = {https://eprint.iacr.org/2025/1852},
+      abstract = {Given a Gaussian matrix $\mathbf{X}$, a Gaussian Leftover Hash Lemma (LHL) states that $\mathbf{X} \cdot \mathbf{v}$ for a Gaussian $\mathbf{v}$ is an essentially independent Gaussian sample. It has seen numerous applications in cryptography for hiding sensitive distributions of $\mathbf{v}$. We generalise the Gaussian LHL initially stated over $\mathbb{Z}$ by Agrawal, Gentry, Halevi, and Sahai (2013) to modules over number fields. Our results have a sub-linear dependency on the degree of the number field and require only polynomial norm growth: $\norm{\mathbf{v}}/\norm{\mathbf{X}}$. To this end, we also prove when $\mathbf{X}$ is surjective (assuming the Generalised Riemann Hypothesis) and give bounds on the smoothing parameter of the kernel of \(\mat{X}\). We also establish when the resulting distribution is independent of the geometry of $\mathbf{X}$ and establish the hardness of the $k$-SIS and $k$-LWE problems over modules ($k$-MSIS/$k$-MLWE) based on the hardness of SIS and LWE over modules (MSIS/MLWE) respectively, which was assumed without proof in prior works.}
+}
+
 @article{cryptoeprint:2025/367,
       abbr={ASIACRYPT},
       author = {Oleksandra Lapiha and Thomas Prest},
-      title = {A Simple IND-CCA Lattice-Based Threshold KEM},
+      title = {A Simple IND-CCA Lattice-Based Threshold KEM from the BCHK+ Transform},
       journal = {ASIACRYPT},
       year = {2025},
       selected={true},
-      abstract="We present a simple IND-CCA lattice-based threshold KEM. At a high level, our design is based on the BCHK transform (Canetti et al., Halevi and Katz, EUROCRYPT 2004), which we adapt to the lattice setting by combine with the FO transform (Fujisaki and Okamoto, PKC 1999) in order to achieve decryption consistency.
+      html = {https://eprint.iacr.org/2025/1958},
+      pdf={tpke.pdf},
+      abstract="We present a simple IND-CCA lattice-based threshold KEM. At a high level, our design is based on the BCHK transform (Canetti et al., EUROCRYPT 2004), which we adapt to the lattice setting by combining it with the FO transform (Fujisaki and Okamoto, PKC 1999) in order to achieve decryption consistency.
 
 As for the BCHK transform, our construction requires a threshold identity-based encryption (TIBE) scheme with suitable properties. We build such an IBE by combining the ABB IBE (Agrawal, Boneh, Boyen, EUROCRYPT 2010) with recent advances in lattice threshold cryptography, such as the threshold-friendly signature Plover (Esgin et al., EUROCRYPT 2024) and a variant of the Threshold Raccoon scheme (Katsumata et al., CRYPTO 2024).
 
-The security proof of our scheme relies on a new assumption which we call the Coset Hint-MLWE assumption, and which is a natural generalisation of the Hint-MLWE assumption (Kim et al., CRYPTO 2023). We prove the hardness of Coset Hint-MLWE under standard assumptions. We believe this new assumption may be of independent interest.
+The security proof of our scheme relies on a new assumption which we call the Coset-Hint-MLWE assumption, and which is a natural generalisation of the Hint-MLWE assumption (Kim et al., CRYPTO 2023). We prove the hardness of Coset-Hint-MLWE under standard assumptions. We believe this new assumption may be of independent interest.
 
 Unlike prior works on IND-CCA lattice-based threshold KEMs, our construction only relies on simple algorithmic tools and does not use heavy machinery such as multi-party computation or threshold fully homomorphic encryption.",
 }
@@ -94,7 +108,7 @@ isbn="978-3-031-58754-2"
       abstract="In this report we analyse and compare the complexity of solving
 the Bounded Distance Decoding problem in two families for discrete
 logarithm lattices. Our algorithm uses the internal structure of the
-lattice to decode an error close to Minkowski’s bound efficiently. This
+lattice to decode an error close to Minkowski's bound efficiently. This
 procedure can be used as a decryption algorithm of an encryption
 scheme, where the internal structure of the lattice serves as a secret
 key. In addition, one of these lattices was used in [1] to construct a
