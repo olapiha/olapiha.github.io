@@ -44,6 +44,8 @@ Reviewer for [Eurocrypt'26](https://eurocrypt.iacr.org/2026/), [Asiacrypt'25](ht
 
 ##### A Simple IND-CCA Lattice-Based Threshold KEM from the BCHK+ Transform
 
+- Jan 26 [Slides](/assets/pdf/26-01-Amber-MPTC-workshop.pdf), MPTS NIST Workshop
+- Jan 26 [Slides](/assets/pdf/26-01-SilenceLabs-KEM.pdf), Silence Laboratories
 - Dec 25 [Slides](/assets/pdf/25-12-asiacrypt.pdf), Asiacrypt Conference, Melbourne
 
 ##### Gaussian Leftover Hash Lemma for Modules over Number Fields
