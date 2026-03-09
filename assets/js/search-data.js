@@ -59,7 +59,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%73%61%73%68%61.%6C%61%70%69%68%61.%32%30%32%31@%6C%69%76%65.%72%68%75%6C.%61%63.%75%6B", "_blank");
+          window.open("mailto:%6F%6C%61%70%69%68%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
@@ -73,7 +73,14 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/oleksandra-sasha-lapiha-36a929167", "_blank");
+          window.open("https://www.linkedin.com/in/oleksandra-lapiha-36a929167", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0001-5089-989X", "_blank");
         },
       },{
         id: 'social-scholar',
