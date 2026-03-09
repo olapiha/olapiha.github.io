@@ -32,7 +32,7 @@ My research interests include:
 - Security Analysis of New Lattice Assumptions
 - Proof Methods, Formal Verification, Quantum Cryptography
 
-I am currently an Applied Cryptography Researcher at Silence Laboratories and a visiting Researcher at [King's College London](https://www.kcl.ac.uk/). Previously I completed my graduate studies in Computer Science at [Ecole Normale Superieure of Paris](https://www.ens.psl.eu/en), and an undergraduate degree in Mathematics at Taras Shevchenko University of Kyiv.
+I am currently an Applied Cryptography Researcher at [Silence Laboratories](https://silencelaboratories.com/) and a visiting Researcher at [King's College London](https://www.kcl.ac.uk/). Previously I completed my graduate studies in Computer Science at [Ecole Normale Superieure of Paris](https://www.ens.psl.eu/en), and an undergraduate degree in Mathematics at Taras Shevchenko University of Kyiv.
 
   
 ## service
