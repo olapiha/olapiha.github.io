@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Applied Cryptography Researcher @ <a href='https://silencelaboratories.com/'>Silence</a>
+subtitle: Cryptography Researcher @ <a href='https://silencelaboratories.com/'>Silence Laboratories</a>
   # </br></br>
   # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
