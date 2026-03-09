@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Cryptography Researcher @ <a href='https://www.royalholloway.ac.uk/'>RHUL</a>
+subtitle: Applied Cryptography Researcher @ <a href='https://silencelaboratories.com/'>Silence</a>
   # </br></br>
   # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
@@ -24,7 +24,7 @@ announcements:
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 3 # leave blank to include all the blog posts # I have completed my PhD at [Royal Holloway](https://www.royalholloway.ac.uk/) working with [Martin R. Albrecht](https://malb.io/).
 ---
 
 My research interests include:
@@ -32,9 +32,9 @@ My research interests include:
 - Security Analysis of New Lattice Assumptions
 - Proof Methods, Formal Verification, Quantum Cryptography
 
-I am currently a PhD Researcher at [Royal Holloway](https://www.royalholloway.ac.uk/) and a visiting PhD Researcher at [King's College London](https://www.kcl.ac.uk/) working with [Martin R. Albrecht](https://malb.io/). Previously I completed my graduate studies in Computer Science at [Ecole Normale Superieure of Paris](https://www.ens.psl.eu/en), and an undergraduate degree in Mathematics at Taras Shevchenko University of Kyiv.
+I am currently an Applied Cryptography Researcher at Silence Laboratories and a visiting Researcher at [King's College London](https://www.kcl.ac.uk/). Previously I completed my graduate studies in Computer Science at [Ecole Normale Superieure of Paris](https://www.ens.psl.eu/en), and an undergraduate degree in Mathematics at Taras Shevchenko University of Kyiv.
 
-
+  
 ## service
 
 Reviewer for [Eurocrypt'26](https://eurocrypt.iacr.org/2026/), [Asiacrypt'25](https://asiacrypt.iacr.org/2025/), [Crypto'25](https://crypto.iacr.org/2025/), [Eurocrypt'25](https://eurocrypt.iacr.org/2025/), [ACM CCS'24](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html), [Eurocrypt'24](https://eurocrypt.iacr.org/2024/)

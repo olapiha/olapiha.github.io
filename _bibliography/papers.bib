@@ -1,5 +1,18 @@
 ---
 ---
+@misc{cryptoeprint:2026/021,
+      abbr={PKC},
+      author = {Katharina Boudgoust and Oleksandra Lapiha and Rafaël del Pino and Thomas Prest},
+      title = {{IND}-{CCA} Lattice Threshold {KEM} under 30 {KiB}},
+      journal = {PKC},
+      pdf={amber.pdf},
+      year = {2026},
+      selected={true},
+      url = {https://eprint.iacr.org/2026/021},
+      abstract = {At Asiacrypt'25, Lapiha and Prest proposed a lattice-based IND-CCA threshold key-encapsulation mechanism (TKEM) obtained from a threshold identity-based encryption (TIBE) and a signature scheme. Their construction relies on a variant of the Boneh-Canetti-Halevi-Katz (BCHK) transform, instantiated with a lattice-based TIBE. However it suffers from large ciphertexts at 540 KiB for bits of security. We present substantial improvements to their TIBE, resulting in the first concretely efficient lattice-based IND-CCA TKEM, with ciphertexts just under 30 KiB for a threshold, queries, and the same. Our design simplifies the original framework by leveraging the power of random oracles already present in their construction. We further enhance efficiency by adopting approximate computations where appropriate and by replacing module-NTRU trapdoors with NTRU trapdoors, achieving a remarkable eighteenfold reduction in ciphertext size. Finally, leveraging recent developments in secret sharing, we ensure the verifiability of key-extraction shares even in the presence of malicious parties.}
+}
+
+
 @article{cryptoeprint:2025/1852,
       abbr={EUROCRYPT},
       author = {Martin R. Albrecht and Joël Felderhoff and Russell W. F. Lai and Oleksandra Lapiha and Ivy K. Y. Woo},
@@ -86,7 +99,7 @@ and Leander, Gregor",
 title="SLAP: Succinct Lattice-Based Polynomial Commitments from Standard Assumptions",
 booktitle="Advances in Cryptology -- EUROCRYPT",
 year="2024",
-selected={true},
+selected={false},
 publisher="Springer Nature Switzerland",
 html= {https://link.springer.com/chapter/10.1007/978-3-031-58754-2_4},
 pdf={SLAP.pdf},
@@ -124,7 +137,7 @@ pages = {111--122},
 volume = {15},
 number = {1},
 abbr={JMC},
-selected={true},
+selected={false},
 journal = {Journal of Mathematical Cryptology},
 doi = {doi:10.1515/jmc-2020-0077},
 pdf={ResidueSymbol.pdf},
