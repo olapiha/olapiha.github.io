@@ -32,12 +32,12 @@ My research interests include:
 - Security Analysis of New Lattice Assumptions
 - Proof Methods, Formal Verification, Quantum Cryptography
 
-I am currently an Applied Cryptography Researcher at [Silence Laboratories](https://silencelaboratories.com/) and a visiting Researcher at [King's College London](https://www.kcl.ac.uk/). Previously I completed my graduate studies in Computer Science at [Ecole Normale Superieure of Paris](https://www.ens.psl.eu/en), and an undergraduate degree in Mathematics at Taras Shevchenko University of Kyiv.
+I am currently an Applied Cryptography Researcher at [Silence Laboratories](https://silencelaboratories.com/) and a visiting Researcher at [King's College London](https://www.kcl.ac.uk/). Previously I completed my PhD in lattice-based cryptography at [Royal Holloway, University of London](https://www.royalholloway.ac.uk/) under the supervision of Martin Albrecht, my graduate studies in Computer Science at [Ecole Normale Superieure of Paris](https://www.ens.psl.eu/en), and an undergraduate degree in Mathematics at Taras Shevchenko University of Kyiv.
 
   
 ## service
 
-Reviewer for [Eurocrypt'26](https://eurocrypt.iacr.org/2026/), [Asiacrypt'25](https://asiacrypt.iacr.org/2025/), [Crypto'25](https://crypto.iacr.org/2025/), [Eurocrypt'25](https://eurocrypt.iacr.org/2025/), [ACM CCS'24](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html), [Eurocrypt'24](https://eurocrypt.iacr.org/2024/)
+Reviewer for [SCN'26](https://scn.unisa.it/scn26/), [Eurocrypt'26](https://eurocrypt.iacr.org/2026/), [Asiacrypt'25](https://asiacrypt.iacr.org/2025/), [Crypto'25](https://crypto.iacr.org/2025/), [Eurocrypt'25](https://eurocrypt.iacr.org/2025/), [ACM CCS'24](https://www.sigsac.org/ccs/CCS2024/call-for/call-for-papers.html), [Eurocrypt'24](https://eurocrypt.iacr.org/2024/)
 
 
 ## talks
@@ -55,6 +55,7 @@ Reviewer for [Eurocrypt'26](https://eurocrypt.iacr.org/2026/), [Asiacrypt'25](ht
 
 ##### Leftover Hash Lemma(s) Over Cyclotomic Rings
 
+- May 26: [Slides](/assets/pdf/26-05-EC-LHL.pdf), Eurocrypt Conference, Rome
 - Jun 25: Charm Workshop, Institut de Mathématiques de Bordeaux, France
 - Feb 25: [Slides](/assets/pdf/25-02-LHL-UKCryptoDay.pdf), Lightning Talk at the UK Crypto Day
 
