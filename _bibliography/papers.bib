@@ -1,5 +1,40 @@
 ---
 ---
+@misc{thesis,
+      abbr={Thesis},
+      author = {Oleksandra Lapiha},
+      title = {Threshold Primitives and Proof Techniques for Module Lattices},
+      pdf={phd-thesis.pdf},
+      year = {2026},
+      selected={true},
+      abstract = {This thesis explores a number of topics in lattice-based cryptography ranging from proof
+                  techniques to primitive design.In the first part of the thesis,we present a modular unifying
+                  framework for proving Leftover Hash Lemmas (LHLs) in cyclotomic rings. We showcase
+                  the power of the framework by proving new statements and covering mathematical
+                  settings not considered before. We further prove LHLs in the presence of leakage and
+                  provide concrete bounds for wide families of distributions and leakage functions. We then
+                  prove a first “Gaussian” Leftover Hash Lemma over rings with a sublinear dependency
+                  of the ring degree. To do that we give a tighter analysis of when a discrete Gaussian
+                  matrix over rings is surjective with high probability, bound the shortest basis norm of
+                  its kernel and establish when the resulting distribution is not affected by the geometry
+                  of the matrix. Using these techniques, we prove the hardness of k-MSIS and k-MLWE
+                  assumptions, which were previously used without proof.
+                  In the second part of this thesis, we build a range of lattice-based threshold primitives.
+                  First,we use k-MSIS and k-MLWE to design a non-interactive trapdoor sharing mechanism.
+                  It allows for thresholdising a broad range of trapdoor-based cryptographic primitives
+                  which we exemplify with a threshold signature and a threshold identity based encryption
+                  schemes. Even though the public parameters of our construction still grow as T2 (where
+                  T is a signing, resp. decryption threshold), it allows for a 1-round, simple algebraic
+                  signing (resp. decryption) procedure. In the last two chapters, we present a family of
+                  CCA-secure threshold key encapsulation mechanisms (TKEMs). Both constructions are
+                  built on a transform we dub BCHK+ combining a threshold identity based encryption
+                  (TIBE) scheme, a one-time signature and a number of random oracles. We build a TIBE
+                  from scratch achieving a three-round protocol, with parameter sizes only logarithmically
+                  dependent on T. In the second construction we significantly reduce the concrete public key
+                  and ciphertext sizes with a simpler TIBE design achieving the first practical CCA-secure
+                  lattice-based TKEM.}
+}
+
 @misc{cryptoeprint:2026/021,
       abbr={PKC},
       author = {Katharina Boudgoust and Oleksandra Lapiha and Rafaël del Pino and Thomas Prest},
@@ -58,7 +93,7 @@ We argue that all prior approaches boil down to two different proof strategies, 
 }
 
 @article{poshtvan2025selectivelyblindquantumcomputation,
-      abbr={In Submission},
+      abbr={Preprint},
       title={Selectively Blind Quantum Computation}, 
       author={Abbas Poshtvan and Oleksandra Lapiha and Mina Doosti and Dominik Leichtle and Luka Music and Elham Kashefi},
       year={2025},
